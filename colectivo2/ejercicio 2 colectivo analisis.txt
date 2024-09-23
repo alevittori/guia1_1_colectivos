@@ -1,0 +1,77 @@
+Colectivo 
+Una empresa de transportes desea un programa para controlar el recorrido de sus unidades:
+
+- Por ser servicio interurbano cada pasajero debe ir sentado. (controlar la disponibilidad de asientos).
+
+- En cada parada pueden ascender o descender pasajeros, por lo que se debe informar en procesos separados.
+a- cantidad de pasajeros que descienden.
+b- Cantidad de pasajeros que ascienden.
+c- Tiempo de demora.
+
+- Al iniciar el recorrido se debe ingresar la hora en formato (HH:MM) de salida y la cantidad de asientos de la unidad.
+- Al finalizar el recorrido se debe informar:
+a- Cantidad de pasajeros transportados.
+b- Tiempo total de recorrido.
+c- Cantidad de paradas.
+d- Tiempo total de demora en las paradas.
+
+Plantear el UML primero en base a lo expresado en el enunciado y el diseño de la interfaz gráfica.
+Implemente una clase que modele el colectivo y una aplicación para verificar su funcionamiento.
+
+
+Clases candidatas - Sustantivos
+
+EmpresaTransporte
+Unidades
+InterUrbano
+Pasajero
+Recorrido
+
+Unidades 
+	atributos
+	int numeroDeUnidad
+	int cantAsientos
+	Recorrido unRecorrido
+	ArrayList<Recorrido> listaRecorridosRealizados 
+	
+
+	Metodos
+		IniciarRecorrido()
+		FinalizarRecorrido()
+		CargarParada()
+
+Recorrido 
+	atributos
+		int horaSalida
+		int cantAsientosUnidad
+		int tiempoTotalRecorrido
+		int cantTotalPasajerosTranspotados
+		int cantTotalParadas
+		int tiempoTotalDemoras
+		bool estado
+		ArrayList<Parada> listaDeParadas 
+
+	(al iniciar) Constructor
+		horaSalida(formato HH:MM)
+		cantidadAsientosUnidad
+		estado -> true
+	(al finalizar)
+	se debe informar 
+		a- Cantidad de pasajeros transportados.
+		b- Tiempo total de recorrido.
+		c- Cantidad de paradas.
+		d- Tiempo total de demora en las paradas.
+	Metodos
+	CantidadPasajerosTransportados()
+	TiempoTotalRecorrido()
+	CantidadParadas()
+	TiempoTotalDeDemoras()
+	finalizarRecorrido()
+	cargarParada()
+
+
+Parada
+	cantDesiende
+	cantAsienden
+	tiempoDemora
+	
