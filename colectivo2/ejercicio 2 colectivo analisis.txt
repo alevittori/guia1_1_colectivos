@@ -34,17 +34,21 @@ Unidades
 	Recorrido unRecorrido
 	ArrayList<Recorrido> listaRecorridosRealizados 
 	
+	CONSTRUCTOR
+		Unidades(int asientos, int nUnidad)
 
 	Metodos
 		IniciarRecorrido()
 		FinalizarRecorrido()
 		CargarParada()
+		Informe()
 
 Recorrido 
 	atributos
-		int horaSalida
+		int horaInicioSalida
 		int cantAsientosUnidad
 		int tiempoTotalRecorrido
+		int cantPasajerosTranspotados
 		int cantTotalPasajerosTranspotados
 		int cantTotalParadas
 		int tiempoTotalDemoras
@@ -61,6 +65,7 @@ Recorrido
 		b- Tiempo total de recorrido.
 		c- Cantidad de paradas.
 		d- Tiempo total de demora en las paradas.
+
 	Metodos
 	CantidadPasajerosTransportados()
 	TiempoTotalRecorrido()
@@ -71,7 +76,13 @@ Recorrido
 
 
 Parada
-	cantDesiende
-	cantAsienden
-	tiempoDemora
+	atributos
+		int cantDesiende
+		int cantAsienden
+		int tiempoDemora
+		int tiempoLlegadaParada
+		int tiempoSalidaParada
+	
+	Contructor
+		Parada(int asienden, descienden, tLlegada, tSalida)
 	
