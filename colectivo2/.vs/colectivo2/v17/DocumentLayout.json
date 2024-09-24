@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Alevitt\\source\\repos\\guia 1 colectivo\\guia1_1_colectivos\\colectivo2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F766CE71-384C-4D2E-8524-667A596096E8}|colectivo2\\colectivo2.csproj|c:\\users\\alevitt\\source\\repos\\guia 1 colectivo\\guia1_1_colectivos\\colectivo2\\colectivo2\\recorrido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F766CE71-384C-4D2E-8524-667A596096E8}|colectivo2\\colectivo2.csproj|solutionrelative:colectivo2\\recorrido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F766CE71-384C-4D2E-8524-667A596096E8}|colectivo2\\colectivo2.csproj|c:\\users\\alevitt\\source\\repos\\guia 1 colectivo\\guia1_1_colectivos\\colectivo2\\colectivo2\\colectivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F766CE71-384C-4D2E-8524-667A596096E8}|colectivo2\\colectivo2.csproj|solutionrelative:colectivo2\\colectivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F766CE71-384C-4D2E-8524-667A596096E8}|colectivo2\\colectivo2.csproj|c:\\users\\alevitt\\source\\repos\\guia 1 colectivo\\guia1_1_colectivos\\colectivo2\\colectivo2\\parada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F766CE71-384C-4D2E-8524-667A596096E8}|colectivo2\\colectivo2.csproj|solutionrelative:colectivo2\\parada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F766CE71-384C-4D2E-8524-667A596096E8}|colectivo2\\colectivo2.csproj|c:\\users\\alevitt\\source\\repos\\guia 1 colectivo\\guia1_1_colectivos\\colectivo2\\colectivo2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F766CE71-384C-4D2E-8524-667A596096E8}|colectivo2\\colectivo2.csproj|solutionrelative:colectivo2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F766CE71-384C-4D2E-8524-667A596096E8}|colectivo2\\colectivo2.csproj|c:\\users\\alevitt\\source\\repos\\guia 1 colectivo\\guia1_1_colectivos\\colectivo2\\colectivo2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F766CE71-384C-4D2E-8524-667A596096E8}|colectivo2\\colectivo2.csproj|solutionrelative:colectivo2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +30,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Parada.cs",
+              "DocumentMoniker": "C:\\Users\\Alevitt\\source\\repos\\guia 1 colectivo\\guia1_1_colectivos\\colectivo2\\colectivo2\\Parada.cs",
+              "RelativeDocumentMoniker": "colectivo2\\Parada.cs",
+              "ToolTip": "C:\\Users\\Alevitt\\source\\repos\\guia 1 colectivo\\guia1_1_colectivos\\colectivo2\\colectivo2\\Parada.cs",
+              "RelativeToolTip": "colectivo2\\Parada.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T20:01:12.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Recorrido.cs",
+              "DocumentMoniker": "C:\\Users\\Alevitt\\source\\repos\\guia 1 colectivo\\guia1_1_colectivos\\colectivo2\\colectivo2\\Recorrido.cs",
+              "RelativeDocumentMoniker": "colectivo2\\Recorrido.cs",
+              "ToolTip": "C:\\Users\\Alevitt\\source\\repos\\guia 1 colectivo\\guia1_1_colectivos\\colectivo2\\colectivo2\\Recorrido.cs",
+              "RelativeToolTip": "colectivo2\\Recorrido.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAuwEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:53:14.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Colectivo.cs",
+              "DocumentMoniker": "C:\\Users\\Alevitt\\source\\repos\\guia 1 colectivo\\guia1_1_colectivos\\colectivo2\\colectivo2\\Colectivo.cs",
+              "RelativeDocumentMoniker": "colectivo2\\Colectivo.cs",
+              "ToolTip": "C:\\Users\\Alevitt\\source\\repos\\guia 1 colectivo\\guia1_1_colectivos\\colectivo2\\colectivo2\\Colectivo.cs",
+              "RelativeToolTip": "colectivo2\\Colectivo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:48:02.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Alevitt\\source\\repos\\guia 1 colectivo\\guia1_1_colectivos\\colectivo2\\colectivo2\\Form1.cs",
+              "RelativeDocumentMoniker": "colectivo2\\Form1.cs",
+              "ToolTip": "C:\\Users\\Alevitt\\source\\repos\\guia 1 colectivo\\guia1_1_colectivos\\colectivo2\\colectivo2\\Form1.cs",
+              "RelativeToolTip": "colectivo2\\Form1.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:39:41.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Alevitt\\source\\repos\\guia 1 colectivo\\guia1_1_colectivos\\colectivo2\\colectivo2\\Form1.cs",
               "RelativeDocumentMoniker": "colectivo2\\Form1.cs",
